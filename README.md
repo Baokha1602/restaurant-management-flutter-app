@@ -13,7 +13,7 @@ RESTAURANT MOBILE APPLICATION
 2. CÁC TÍNH NĂNG CHÍNH
 
 - QR Ordering & Identification: Quét mã QR tại bàn để định danh vị trí và truy xuất thực đơn tương ứng
-- Smart Menu: Hiển thị thực đơn trực quan, cho phép tùy chỉnh kích thước món ăn (Food Size) và thêm ghi chú yêu cầu.
+- Smart Menu: Hiển thị thực đơn trực quan, cho phép tùy chỉnh kích thước món ăn (Food Size) và thêm ghi chú yêu cầu
 - Real-time Tracking: Theo dõi tiến độ chế biến món ăn từ bếp theo thời gian thực mà không cần tải lại trang
 - Payment Integration: Kết nối API thanh toán Momo, VNPAY và quản lý lịch sử giao dịch ngay trên ứng dụng
 - Statistics & Reports: Cung cấp biểu đồ thống kê doanh thu và tần suất đặt món (dành cho quản lý)
@@ -21,8 +21,8 @@ RESTAURANT MOBILE APPLICATION
 
 3. CẤU TRÚC THƯ MỤC SOURCE CODE
 
-- lib/config/: Quản lý các biến môi trường, định nghĩa URL API và các thiết lập chung.
-- lib/models/: Định nghĩa cấu trúc dữ liệu (Data Classes) phục vụ việc mapping JSON từ API.
+- lib/config/: Quản lý các biến môi trường, định nghĩa URL API và các thiết lập chung
+- lib/models/: Định nghĩa cấu trúc dữ liệu (Data Classes) phục vụ việc mapping JSON từ API
 - lib/screen/: Chứa mã nguồn giao diện được module hóa theo tính năng:
     - order/ & payment/: Xử lý luồng đặt món và thanh toán.
     - menu/ & menu_category/: Hiển thị và phân loại thực đơn. 
